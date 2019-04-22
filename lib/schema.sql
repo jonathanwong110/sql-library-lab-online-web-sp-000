@@ -3,4 +3,4 @@ CREATE TABLE (
   title TEXT,
   author_id INTEGER,
   subgenre_id TEXT,
-);
+  );
