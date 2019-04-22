@@ -31,8 +31,7 @@ end
 def select_series_title_with_most_human_characters
   "SELECT title
   FROM series
-  GROUP BY series.title, species
-  HAVING characters.species = 'humans'
+  WHERE characters.species = 'humans'
   ORDER BY COUNT(species) DESC LIMIT 1;"
 end
 
