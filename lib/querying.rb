@@ -15,7 +15,7 @@ end
 def select_value_and_count_of_most_prolific_species
   "SELECT species, characters_id
   FROM characters
-  WHERE characters_id = 4
+  WHERE characters.id = 4
   ;"
 end
 
