@@ -9,7 +9,7 @@ end
 def select_name_and_motto_of_char_with_longest_motto
   "select name, motto
   FROM characters
-  WHERE characters = 2
+  WHERE characters_id = 2
   ;"
 end
 
